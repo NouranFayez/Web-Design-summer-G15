@@ -1,0 +1,86 @@
+#h3_style {
+    color: maroon;
+}
+
+.text-gray {
+    color: gray;
+}
+
+h3 {
+    color: blue !important;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+
+
+
+/* .text-gray{
+    color: red;
+    color: blue;
+} */
+
+.div-style {
+    background-color: lightgray;
+    width: 50%;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    padding: 1% 2% 1% 2%;
+    padding: 2% 1% 3%;
+    padding: 2% 1%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2% auto;
+    /* border ==> width style color */
+    border-top-color: red;
+    border-top-width: 5px;
+    border-top-style: solid;
+    color: red;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border: 5px solid teal;
+    font-family: monospace;
+    /* border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px; */
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 30px; */
+    
+    border-radius: 30px 10px 30px 10px;
+    border-radius: 20px;
+
+}
+
+.div-style h1 {
+    /* left (default) , center , right */
+    text-align: center;
+    font-size: 40px;
+     /* font-family: cursive; */
+}
+
+.div-style p{
+    font-weight: bold;
+    font-size: 20px;
+    /* font-family: cursive; */
+}
+
+a{
+    /* none , underline , line-through , overline */
+    text-decoration: none;
+    color: inherit;
+}
+
+/* .div-style a{
+    color: red;
+} */

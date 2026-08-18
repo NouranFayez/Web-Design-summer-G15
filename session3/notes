@@ -1,0 +1,10 @@
+-- css methods ==> internal sheet
+                   inline style
+                   external sheet
+
+
+css selector {
+    cssProperty : value ;
+}       
+
+==> tag ==> class ==> id ==> inline style
