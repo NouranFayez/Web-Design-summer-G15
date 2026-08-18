@@ -1,3 +1,30 @@
+/* universe style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+/* h4{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+} */
+/* h4 , p , body , h1 , h2 , h3{
+    margin: 0;
+    padding: 0;
+} */
+
+
+
 #h3_style {
     color: maroon;
 }
@@ -56,7 +83,7 @@ h3 {
     /* border-top-left-radius: 30px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 30px; */
-    
+
     border-radius: 30px 10px 30px 10px;
     border-radius: 20px;
 
@@ -66,16 +93,16 @@ h3 {
     /* left (default) , center , right */
     text-align: center;
     font-size: 40px;
-     /* font-family: cursive; */
+    /* font-family: cursive; */
 }
 
-.div-style p{
+.div-style p {
     font-weight: bold;
     font-size: 20px;
     /* font-family: cursive; */
 }
 
-a{
+a {
     /* none , underline , line-through , overline */
     text-decoration: none;
     color: inherit;
@@ -84,3 +111,60 @@ a{
 /* .div-style a{
     color: red;
 } */
+
+
+.custom-div {
+    width: 30%;
+    color: teal;
+    background-color: white;
+    /* margin: auto; */
+    padding: 2%;
+    border: 2px solid;
+    display: inline-block;
+    /* top , middle , bottom */
+        vertical-align: top;
+    /* box-sizing: border-box; */
+
+}
+
+.custom-div img {
+    width: 100%;
+}
+
+.custom-div-body {
+    padding: 4%;
+    padding: 4%;
+    border: 2px solid;
+
+}
+
+.bg-light {
+    background-color: rgb(231, 231, 231);
+}
+
+.container {
+    /* background-color: lightblue; */
+    /* color: white; */
+    margin: auto;
+    width: 80%;
+}
+.margin-left-right{
+    margin: 0% 5%;
+}
+
+.h1-style{
+        text-align: center;
+    margin-bottom: 3%;
+}
+.padding-top-bottom{
+    padding: 4% 0%;
+}
+.custom-div-body a{
+    background-color: black;
+    color: white;
+    margin-top: 3%;
+    padding: 3%;
+    /* width: 52%; */
+    display: inline-block;
+}
+/* display ==> none , block , inline , inline-block , flex */
