@@ -51,6 +51,18 @@ a {
     /* rgb : 0 ==> 255 */
     color: rgb(165 165 165);
 }
+.hr-white{
+    border-color: white ;
+}
+.btn-transparent{
+    margin: 3% auto;
+    display: block;
+    font-size: 22px;
+    padding: 0.5% 2%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
 
 
 /* custom style */
@@ -58,7 +70,7 @@ a {
 #awesome-section .card {
     width: 32%;
     margin-top: 7%;
-     display: inline-block;
+    display: inline-block;
   
 
 }
@@ -75,3 +87,23 @@ a {
 }
 
 #about-section .card {}
+
+.bg-img{
+    /* background-image: url(../images/istockphoto-517188688-612x612.jpg); */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm3RZJhM6jiGRObbJWQkGbw6JR0gsl5lyrbHY-VguAjTjJIVYFwyBnCKw&s=10);
+    /* height: 600px; */
+    background-repeat: no-repeat;
+    background-color: aqua;
+    /* background-position-x: center; */
+    /* background-position-y: top; */
+    /* background-position: left bottom; */
+    background-size: 50% 100%;
+    background-position-x: right;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.overlay{
+    background-color: rgb(0 0 0 / 44%);
+    height: 100%;
+}
