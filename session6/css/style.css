@@ -1,0 +1,128 @@
+/* Reset Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Global style */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.bg-light {
+    background-color: rgb(228, 228, 228);
+}
+
+.padding-top-bottom {
+    padding: 4% 0%;
+}
+
+.padding {
+    padding: 4%;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+.w-100{
+    width: 100%;
+}
+
+
+
+/* Custom style */
+.custom-card {
+    width: 35%;
+    background-color: white;
+
+}
+
+.custom-card img {
+    display: block;
+}
+
+.overlay {
+    background: #000000a6;
+    top: 0;
+    color: white;
+    height: 100%;
+    padding: 3%;
+    display: none;
+
+}
+.padding h2:hover{
+    color: blue;
+    background-color: lightgray;
+    border: 2px solid ;
+}
+/* .custom-card:hover .overlay{
+    display: block;
+} */
+
+/* .overlay:hover{
+    display: block;
+} */
+ .position-relative:hover .overlay{
+    display: block;
+ }
+
+
+ /* .custom-card:hover{
+    
+ } */
+
+
+ .transition-card{
+    width: 30%;
+    padding: 2%;
+    background-color: lightgray;
+    /* transition-duration: 5s ; */
+    /* all (default) */
+    /* transition-property: background ; */
+    /* ease (default) ==> start slow , then fast , end slow */
+    /* linear ==> same speed  */
+    /* ease-in ==> start slow  */
+    /* ease-out ==> end slow  */
+    /* ease-in-out , step-start , step-end , cubic-bezier ==> search */
+    /* transition-timing-function: linear ; */
+    /* transition-delay: 2s; */
+    /* transition: 3s all linear 3s; */
+    transition: 3s all linear ;
+ }
+ .transition-card:hover{
+    width: 100%;
+    background: teal;
+    color: white;
+    /* transition: 3s all linear ; */
+
+ }
+
+ .overflow-card{
+    width: 40%;
+    padding: 3%;
+    box-shadow: 0px 0px 4px 3px lightgray;
+    margin-left: 2%;
+        height: 174px;
+    overflow: auto;
+    /* /* white-space: nowrap; */
+ }

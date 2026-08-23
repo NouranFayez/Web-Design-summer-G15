@@ -257,13 +257,20 @@ nav ul {
     position: relative;
 }
 .search-icon{
-    position:absolute;
+        position: absolute;
     left: 0;
-    top: 5px;
+    top: 9px;
     color: gray;
 }
 input{
-    padding-left: 9%;
+   padding-left: 9%;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 0;
+    /* border: 2px solid white; */
+    box-shadow: -2px 0px 4px 1px lightgray;
+
 }
 
 
