@@ -47,7 +47,12 @@ a {
 .w-100{
     width: 100%;
 }
-
+.justify-content-center{
+    justify-content: center;
+}
+.d-block{
+    display: block;
+}
 
 
 /* Custom style */
@@ -125,4 +130,36 @@ a {
         height: 174px;
     overflow: auto;
     /* /* white-space: nowrap; */
+ }
+
+ .card-hover{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 10px;
+
+ }
+
+ .card-hover img{
+    /* border-radius: 10px; */
+ }
+ .custom-overlay{
+    background-color: white;
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+    top: 64%;
+    transition: 0.5s linear ;
+
+ }
+ .custom-overlay h4{
+    margin-bottom: 3%;
+ }
+ hr{
+    width: 10%;
+    margin: 3% 0%;
+ }
+
+ .card-hover:hover .custom-overlay{
+    top: 0%;
+
  }
