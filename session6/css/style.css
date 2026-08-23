@@ -19,6 +19,7 @@ a {
 
 .d-flex {
     display: flex;
+        flex-wrap: wrap;
 }
 
 .justify-content-between {
@@ -57,13 +58,17 @@ a {
 
 /* Custom style */
 .custom-card {
-    width: 35%;
+    width: 32%;
     background-color: white;
 
 }
 
 .custom-card img {
     display: block;
+}
+.custom-link{
+    font-size: 23px;
+
 }
 
 .overlay {
@@ -163,3 +168,9 @@ a {
     top: 0%;
 
  }
+
+ /* display : none */
+ /* opacity : 0 - 1 */
+ /* visibility : hidden , visible (default) */
+
+
