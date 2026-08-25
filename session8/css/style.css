@@ -315,7 +315,8 @@ td:last-child{
     animation-direction: alternate-reverse;
     animation-timing-function: linear;
     animation-delay: 2s;
-    
+    animation: linear 3s alternate-reverse 2 changeBgColor;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
    
 }
 .animation-card:hover{
