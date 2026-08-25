@@ -12,7 +12,9 @@
     padding: 0;
     box-sizing: border-box;
     /* font-family: cursive; */
-     font-family: "Poppins", sans-serif;
+     /* font-family: "Poppins", sans-serif; */
+     font-family: "Cairo", sans-serif;
+        direction: rtl;
 }
 
 
