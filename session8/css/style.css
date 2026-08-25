@@ -301,4 +301,50 @@ td:last-child{
     overflow: hidden;
 }
 
+.animation-card{
+    width:100px;
+    height: 100px;
+    background-color: black;
+    animation-duration: 4s;
+    animation-name: changeBgColor ;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: 2;
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate; */
+    /* animation-direction: reverse; */
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    
+   
+}
+.animation-card:hover{
+     animation-play-state: paused ;
+}
 
+@keyframes changeBgColor {
+    /* from{
+        background-color: lightblue;
+    }
+    to{
+        background-color: goldenrod;
+    } */
+     0%{
+
+    }
+    25%{
+         transform: translateX(300px);
+        background-color: lightblue;
+     }
+     50%{
+        background-color: green;
+        transform: translate(300px , 300px);
+     }
+     75%{
+        background-color: #dfdfdf;
+        transform: translate(0px , 300px);
+     }
+     100%{
+        background-color: lightsalmon;
+     }
+}
