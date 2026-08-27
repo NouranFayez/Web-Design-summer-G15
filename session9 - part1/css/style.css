@@ -1,0 +1,8 @@
+.carousel-item img{
+    height: 500px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+}
