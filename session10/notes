@@ -8,3 +8,5 @@
                   comparison operator ==>  > >= < <= == === != !== ==> return boolean type 
                   logical operator ==> && || !
                   ternary operator ==> (condition/s) ? true : false
+
+// looping ==> for , while , do-while 
