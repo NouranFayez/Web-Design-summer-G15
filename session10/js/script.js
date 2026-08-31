@@ -324,5 +324,10 @@ userInfo.forEach((element , index , arr)=>{
 
 var  courses = ["html" , "css" , "js"]
 
+var p = prompt("enter ")
+
+console.log(p.toLowerCase())
+console.log(p.toUpperCase())
+
 
 
