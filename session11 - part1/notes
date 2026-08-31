@@ -1,0 +1,38 @@
+
+
+// bank task
+// user ==> name , id , balance
+/// function addUser ==> user
+/// function editUserBalanceById == > id , newBalance  
+// function transferBalance ==> fromID , toID , balance  
+// function deleteUserById ==> id 
+
+///////// List of Search ////////////////////////
+
+///// Methods of String 
+// includes()
+// startsWith()
+// endsWith()
+// trim()
+// replace()
+// replaceAll()
+// slice() ==> string , array
+// split()
+// toLowerCase()
+// toUpperCase()
+// str.length 
+
+//// Methods of Number
+// Number()
+// parseInt()
+// parseFloat()
+// isNaN()
+// Math.random()
+// Math.floor()
+// Math.ceil()
+// Math.round()
+// Math.max()
+// Math.min()
+// Math.abs()
+// Math.trunc()
+

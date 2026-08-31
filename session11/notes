@@ -1,8 +1,0 @@
-
-
-// bank task
-// user ==> name , id , balance
-/// function addUser ==> user
-/// function editUserBalanceById == > id , newBalance  
-// function transferBalance ==> fromID , toID , balance  
-// function deleteUserById ==> id 
