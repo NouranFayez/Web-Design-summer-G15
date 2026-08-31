@@ -128,5 +128,11 @@ users[index].address = "new cairo"
 console.table(users)
 
 
+var usersList = []
+function addUser (){
+    usersList.push()
+}
+
+
 
 
