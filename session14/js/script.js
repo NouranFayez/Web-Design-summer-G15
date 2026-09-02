@@ -71,6 +71,21 @@ console.log(usersList)
 localStorage.setItem('users' , JSON.stringify(usersList))
 
 
+// document.querySelector('.owl-carousel')
 
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items : 4 ,
+    margin: 30 ,
+    nav: true,
+    loop:true , 
+    navText:[ '<i class="fa-solid fa-arrow-left bg-light p-2 text-primary"></i>' , '<i class="fa-solid fa-arrow-right"></i>']
+  });
+});
+
+// https://owlcarousel2.github.io/OwlCarousel2/
+
+
+// <i class="fa-solid fa-arrow-right"></i>
 
 
